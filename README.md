@@ -4,6 +4,14 @@ A pixel-art creature collecting game played in the real world. You photograph li
 
 Everything runs on your own laptop through [Ollama](https://ollama.com). No accounts, no cloud, no API keys. Your photos never leave your devices.
 
+<p align="center">
+  <img src="docs/today.png" alt="Today screen: the pixel avatar, a Wanted poster and the button to open today's pack" width="24%">
+  <img src="docs/reveal.png" alt="Revealing an Epic Tiger Butterfly card with pixel-art made from the photo" width="24%">
+  <img src="docs/dex.png" alt="The Dex: collected cards with rarity frames and ??? slots for creatures not yet found" width="24%">
+  <img src="docs/story.png" alt="Story chapter written from today's finds, ending on a cliffhanger" width="24%">
+</p>
+<p align="center"><sub>Today · Reveal · Dex · Story. Screenshots use sample photos from Wikimedia Commons.</sub></p>
+
 ## How a day works
 
 1. **Outside:** use the normal iPhone Camera. No app, no laptop, no signal needed.
@@ -56,3 +64,7 @@ Edit `profile.yaml`. Any Ollama vision model works for `vision` (for example `ge
 | `web/` | The game: plain HTML/CSS/JS. `sprites.js` draws the avatar from text grids; `sfx.js` synthesises 8-bit sounds. |
 
 Fonts: Press Start 2P and Pixelify Sans, bundled locally under the SIL Open Font License (see `web/fonts/`).
+
+## License
+
+[MIT](LICENSE) for the code. The bundled fonts keep their own SIL Open Font License.
