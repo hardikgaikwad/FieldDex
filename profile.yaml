@@ -1,0 +1,16 @@
+# Your profile. Everything stays on this laptop.
+name: Hardik
+timezone: Asia/Kolkata
+home:
+  city: Jabalpur
+  lat: 23.1769
+  lon: 79.9721
+
+models:
+  vision: qwen2.5vl:3b     # alternatives: gemma3:4b, moondream
+  text: qwen2.5:3b
+
+interests:
+  - photography
+  - birding
+  - plants and trees

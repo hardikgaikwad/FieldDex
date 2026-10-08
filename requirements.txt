@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+ollama
+pillow
+pillow-heif
+astral
+pyyaml
+tzdata
+pytest
+httpx
